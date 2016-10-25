@@ -28,19 +28,3 @@ $(document).ready(function() {
   event.preventDefault();
   });
 });
-
-// var scrambler = function(sentence) {
-//   var noA = sentence.replace(/a/gi, "-");
-//   var noE = noA.replace(/e/gi, "-");
-//   var noI = noE.replace(/i/gi, "-");
-//   var noO = noI.replace(/o/gi, "-");
-//   var noU = noO.replace(/u/gi, "-");
-//   var result = noU
-//
-//   return result;
-// };
-//
-// var output = scrambler(sentenceInput)
-//
-// $("form#input").hide();
-// $("body").append("<h1>" + output +  "</h1>");
